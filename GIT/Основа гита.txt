@@ -1,0 +1,9 @@
+1) Инициализация локального проекта и привязка к удаленному
+Git init
+Git add .
+Git commit -m ""
+Git remote add "name-project" "url"
+Git push -u "name" "master"
+
+2) Пушим ветку
+Git push --set-upstream "name-project" "name-branch"
